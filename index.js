@@ -14,6 +14,6 @@ function exactMatch(list,prop){
   return list.filter(function(driver){
     
     return list.min === prop.min;
-  }).map(()=> {return first})
+  })
   
 }
