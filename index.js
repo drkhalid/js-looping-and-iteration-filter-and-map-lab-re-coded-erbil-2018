@@ -8,6 +8,7 @@ function driverNamesWithRevenueOver(list,reven){
 }
 
 
-function exactMatch(){
+function exactMatch(list,value){
+  return list.filter(function(driver){})
   
 }
