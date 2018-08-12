@@ -8,7 +8,10 @@ function driverNamesWithRevenueOver(list,reven){
 }
 
 
-function exactMatch(list,value){
-  return list.filter(function(driver){})
+function exactMatch(list,prop){
+  return list.filter(function(driver){
+    let key = Object.keys()
+    return list
+  })
   
 }
