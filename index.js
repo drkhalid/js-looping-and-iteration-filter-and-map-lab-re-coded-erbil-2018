@@ -16,7 +16,7 @@ function exactMatch(list,prop){
     function(driver){
       let result = false
       for (const key in driver){
-        result = driver
+        result = driver[key] === prop[key]
       }
     }
     )
