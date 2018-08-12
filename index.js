@@ -5,9 +5,10 @@ function driversWithRevenueOver(list,reven){
 
 function driverNamesWithRevenueOver(list,reven){
   let array =[]
-  return list.map(function(driver){
+  list.map(function(driver){
     if (driver.revenue > reven){
       return array.push[driver.name]
     }
   })
+  return array
 }
