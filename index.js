@@ -12,6 +12,14 @@ function exactMatch(list,prop){
   let myObj=prop;
   let min = Object.keys(prop)[0];
   
-  return list.filter((driver)=> driver.min === myObj.min)
+  return list.filter(
+    function(driver){
+      let result = false
+      for (const key in driver){
+        result = driver
+      }
+    }
+    )
   
 }
+
