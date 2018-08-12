@@ -23,9 +23,9 @@ function exactMatch(list,prop){
     )}
     
 function exactMatchToList(list,prop){
-  let myarr = []
-  exactMatch(list,prop).map((elem)=> myarr.push[elem.name])
-  return myarr
+  
+  return exactMatch(list,prop).map((elem)=> myarr.push[elem.name])
+   
 }    
 
 
