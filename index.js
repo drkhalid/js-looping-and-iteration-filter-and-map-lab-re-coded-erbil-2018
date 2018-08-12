@@ -23,7 +23,8 @@ function exactMatch(list,prop){
     )}
     
 function exactMatchToList(){
-  return exactMatch(list,prop).map((elem)=> elem.name)
+  let myarr = []
+  return exactMatch(list,prop).map((elem)=> myarr.push[elem.name])
 }    
 
 
