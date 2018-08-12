@@ -4,9 +4,5 @@ function driversWithRevenueOver(list,reven){
 }
 
 function driverNamesWithRevenueOver(list,reven){
-  return list.map(
-    function(driver){
-      return driver.filter()
-    }
-    )
+  
 }
