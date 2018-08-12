@@ -10,8 +10,8 @@ function driverNamesWithRevenueOver(list,reven){
 
 function exactMatch(list,prop){
   return list.filter(function(driver){
-    let key = Object.keys(prop)[0]
-    return list.key === prop.key
-  })
+    let min = Object.keys(prop)[0];
+    return list.min == prop.min;
+  }).map(())
   
 }
