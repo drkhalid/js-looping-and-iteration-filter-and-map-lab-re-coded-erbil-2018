@@ -22,7 +22,7 @@ function exactMatch(list,prop){
     }
     )}
     
-function exactMatchToList(){
+function exactMatchToList(list,prop){
   let myarr = []
   exactMatch(list,prop).map((elem)=> myarr.push[elem.name])
   return myarr
