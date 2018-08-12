@@ -8,12 +8,12 @@ function driverNamesWithRevenueOver(list,reven){
 }
 
 
-function exactMatch()(list,prop){
+function exactMatch(list,prop){
   let min = Object.keys(prop)[0];
   
   return list.filter(function(driver){
     
-    return list.min === prop.min;
+    return driver.min === prop.min;
   })
   
 }
