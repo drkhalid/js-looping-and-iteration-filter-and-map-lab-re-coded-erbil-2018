@@ -7,10 +7,3 @@ function driverNamesWithRevenueOver(list,reven){
   return driversWithRevenueOver(list,reven).map((driver)=> driver.name)
   
 }
-
-function driverNamesWithRevenueOver (drivers, revenue) {
-  return driversWithRevenueOver(drivers, revenue)
-    .map(function (driver) {
-      return driver.name;
-    });
-}
