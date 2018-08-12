@@ -4,11 +4,11 @@ function driversWithRevenueOver(list,reven){
 }
 
 function driverNamesWithRevenueOver(list,reven){
-  let array =[]
-  list.map(function(driver){
+  return list.map(function(driver){
     if (driver.revenue > reven){
-      return array.push[driver.name]
+      let array =[]
+      array.push[driver.name]
+      return array
     }
   })
-  return array
 }
