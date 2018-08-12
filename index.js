@@ -20,9 +20,11 @@ function exactMatch(list,prop){
       }
       return result
     }
-    )
-  
-}
+    )}
+    
+function exactMatchToList(){
+  return exactMatch(list,prop).map((elem)=> elem.name)
+}    
 
 
 
